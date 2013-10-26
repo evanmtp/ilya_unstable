@@ -1,0 +1,75 @@
+{
+	"pattrstorage" : 	{
+		"name" : "fake_ilya.fakestate",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"multislider" : [ 0.0, 0.0, 0.0 ],
+					"multislider[1]" : [ 0.0, 0.0, 0.0 ],
+					"multislider[2]" : [ 0.0, 0.095618 ],
+					"multislider[3]" : [ 0.0, 0.095618 ],
+					"toggle" : [ 0 ],
+					"tml.oz.clock::flonum" : [ 1.0 ],
+					"tml.oz.clock::flonum[1]" : [ 0.0 ],
+					"tml.oz.clock::flonum[2]" : [ 0.0 ],
+					"tml.oz.clock::stateClock1_controlslider" : [ 0.0 ],
+					"tml.oz.clock::stateClock1_displayslider" : [ 0.0 ],
+					"tml.oz.clock::stateClock1_domain" : [ 0 ],
+					"tml.oz.clock::stateClock1_edit" : [ 0 ],
+					"tml.oz.clock::stateClock1_function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 549.85968, 0.92, 0, 1000.0, 0.0, 0 ],
+					"tml.oz.clock::stateClock1_loop" : [ 0 ],
+					"tml.oz.clock::stateClock1_loop[1]" : [ 0 ],
+					"tml.oz.clock::stateClock1_speed" : [ 0 ],
+					"tml.oz.clock::tml.oz.header::menu" : [ "Clock / stateClock1", 0 ],
+					"tml.oz.clock::tml.oz.header::onoff" : [ 1 ],
+					"tml.oz.clock[1]::flonum" : [ 1.0 ],
+					"tml.oz.clock[1]::flonum[1]" : [ 0.0 ],
+					"tml.oz.clock[1]::flonum[2]" : [ 0.0 ],
+					"tml.oz.clock[1]::stateClock2_controlslider" : [ 0.0 ],
+					"tml.oz.clock[1]::stateClock2_displayslider" : [ 0.0 ],
+					"tml.oz.clock[1]::stateClock2_domain" : [ 0 ],
+					"tml.oz.clock[1]::stateClock2_edit" : [ 0 ],
+					"tml.oz.clock[1]::stateClock2_function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 549.85968, 0.92, 0, 1000.0, 0.0, 0 ],
+					"tml.oz.clock[1]::stateClock2_loop" : [ 0 ],
+					"tml.oz.clock[1]::stateClock2_loop[1]" : [ 0 ],
+					"tml.oz.clock[1]::stateClock2_speed" : [ 0 ],
+					"tml.oz.clock[1]::tml.oz.header::menu" : [ "Clock / stateClock2", 0 ],
+					"tml.oz.clock[1]::tml.oz.header::onoff" : [ 1 ],
+					"tml.oz.clock[2]::flonum" : [ 1.0 ],
+					"tml.oz.clock[2]::flonum[1]" : [ 0.0 ],
+					"tml.oz.clock[2]::flonum[2]" : [ 0.0 ],
+					"tml.oz.clock[2]::stateClock3_controlslider" : [ 0.0 ],
+					"tml.oz.clock[2]::stateClock3_displayslider" : [ 0.0 ],
+					"tml.oz.clock[2]::stateClock3_domain" : [ 0 ],
+					"tml.oz.clock[2]::stateClock3_edit" : [ 0 ],
+					"tml.oz.clock[2]::stateClock3_function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 549.85968, 0.92, 0, 1000.0, 0.0, 0 ],
+					"tml.oz.clock[2]::stateClock3_loop" : [ 0 ],
+					"tml.oz.clock[2]::stateClock3_loop[1]" : [ 0 ],
+					"tml.oz.clock[2]::stateClock3_speed" : [ 0 ],
+					"tml.oz.clock[2]::tml.oz.header::menu" : [ "Clock / stateClock3", 0 ],
+					"tml.oz.clock[2]::tml.oz.header::onoff" : [ 0 ],
+					"tml.oz.clock[3]::flonum" : [ 1.0 ],
+					"tml.oz.clock[3]::flonum[1]" : [ 0.0 ],
+					"tml.oz.clock[3]::flonum[2]" : [ 0.0 ],
+					"tml.oz.clock[3]::stateClock4_controlslider" : [ 0.0 ],
+					"tml.oz.clock[3]::stateClock4_displayslider" : [ 0.0 ],
+					"tml.oz.clock[3]::stateClock4_domain" : [ 0 ],
+					"tml.oz.clock[3]::stateClock4_edit" : [ 0 ],
+					"tml.oz.clock[3]::stateClock4_function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 549.85968, 0.92, 0, 1000.0, 0.0, 0 ],
+					"tml.oz.clock[3]::stateClock4_loop" : [ 0 ],
+					"tml.oz.clock[3]::stateClock4_loop[1]" : [ 0 ],
+					"tml.oz.clock[3]::stateClock4_speed" : [ 0 ],
+					"tml.oz.clock[3]::tml.oz.header::menu" : [ "Clock / stateClock4", 0 ],
+					"tml.oz.clock[3]::tml.oz.header::onoff" : [ 0 ],
+					"tml.oz.preset::tml.oz.header::menu" : [ "Preset / fake_ilya.fakestate", 0 ],
+					"tml.oz.preset::tml.oz.header::onoff" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

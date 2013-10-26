@@ -1,0 +1,18 @@
+{
+	"pattrstorage" : 	{
+		"name" : "ElkClocks_ilya.state.fake.clocks[1]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"tml.oz.preset::tml.oz.header::menu" : [ "Preset / ElkClocks_ilya.state.fake.clocks", 0 ],
+					"tml.oz.preset::tml.oz.header::onoff" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

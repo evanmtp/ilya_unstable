@@ -1,0 +1,35 @@
+NodeSetLabel 0 Glass1
+NodeSetLabel 1 Discovery
+NodeSetLabel 2 Storm
+NodeSetLabel 3 Desert
+NodeSetLabel 4 Glass2
+
+SimplexNew GD Glass1 Discovery
+SimplexNew DSD Discovery Storm Desert
+SimplexNew DG Desert Glass2
+
+NodeSetMean Glass1 1.0 0.0 0.0 0.0 0.0
+NodeSetVar Glass1 0.2 0.2 0.2 0.2 0.2
+
+NodeSetMean Discovery 0.0 1.0 0.0 0.0 0.0
+NodeSetVar Discovery 0.2 0.2 0.2 0.2 0.2
+
+NodeSetMean Storm 0.0 0.0 1.0 0.0 0.0
+NodeSetVar Storm 0.2 0.2 0.2 0.2 0.2
+
+NodeSetMean Desert 0.0 0.0 0.0 1.0 0.0
+NodeSetVar Desert 0.2 0.2 0.2 0.2 0.2
+
+NodeSetMean Glass2 0.0 0.0 0.0 0.0 0.1
+NodeSetVar Glass2 0.2 0.2 0.2 0.2 0.2
+
+TokenNew T
+
+TokenSetSimplex T GD
+TokenSetCoord T 1.0 0.0
+TokenSetDamping T 90.0
+TokenSetScale T 0.5
+
+SetSlew 0.0
+SetDt 20.0
+SetForce InverseSquare

@@ -1,0 +1,21 @@
+NodeSetLabel 0 Initial
+NodeSetLabel 1 Final
+
+SimplexNew IF Initial Final
+
+NodeSetMean Initial 1.0 0.0
+NodeSetVar Initial 0.1 0.0
+
+NodeSetMean Final 0.0 1.0
+NodeSetVar Final 0.0 1.0
+
+TokenNew T
+
+TokenSetSimplex T IF
+TokenSetCoord T 1.0 0.0
+TokenSetDamping T 0.0
+TokenSetScale T 0.1
+
+SetSlew 0.0
+SetDt 1.0
+SetForce Gravity

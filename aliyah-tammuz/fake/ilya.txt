@@ -1,0 +1,25 @@
+
+NodeSetLabel 0 Left
+NodeSetLabel 1 Right
+
+SimplexNew LR Left Right
+
+NodeSetMean Left -1.0
+NodeSetMean Right 1.0
+
+NodeSetVar Left 1.0
+NodeSetVar Right 1.0
+
+NodeSetPotential Left 1.0
+NodeSetPotential Right 1.0
+
+TokenNew TestToken
+
+TokenSetSimplex TestToken LR
+
+TokenSetCoord TestToken 0.1 0.0
+
+SetDt 10.0
+SetForce Spring
+
+

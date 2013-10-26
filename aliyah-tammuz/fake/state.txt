@@ -1,0 +1,25 @@
+NodeSetLabel 0 Glass
+NodeSetLabel 1 Liquid
+NodeSetLabel 2 Fire
+
+SimplexNew GLF Glass Liquid Fire
+
+NodeSetMean Glass 1.0 0.0 0.0
+NodeSetVar Glass 0.2 0.2 0.2
+
+NodeSetMean Liquid 0.0 1.0 0.0
+NodeSetVar Liquid 0.2 0.2 0.2
+
+NodeSetMean Fire 0.0 0.0 1.0
+NodeSetVar Fire 0.2 0.2 0.2
+
+TokenNew T
+
+TokenSetSimplex T GLF
+TokenSetCoord T 1.0 0.0 0.0
+TokenSetDamping T 50.0
+TokenSetScale T 0.5
+
+SetSlew 0.0
+SetDt 100.0
+SetForce SensorForce
